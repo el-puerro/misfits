@@ -1,0 +1,81 @@
+(footprint "R0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.4605 -0.3175 180)
+		(layer "F.SilkS")
+		(uuid "51ac7119-155e-4667-bcad-cb791be74fc5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R0603"
+		(at 1.5875 -0.3175 180)
+		(layer "F.Fab")
+		(uuid "4d1e079c-1b55-4a11-85d8-aef55b350b9b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0f23026-1b5e-44ba-a813-88e350b9efba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd23ba0b-9726-4296-8d7d-3787bde87ca3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd roundrect
+		(at 0 -0.762)
+		(size 0.889 0.889)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "fc93595c-f234-4bd2-8294-f556cabdfcad")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.762)
+		(size 0.889 0.889)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1bbca13d-9994-42e5-9647-a058bc5e4403")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/SMD-RES-2K-1_-1_10W_0603_/SMD-RES-2K-1_-1_10W_0603_.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
