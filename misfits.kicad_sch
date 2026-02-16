@@ -9358,16 +9358,8 @@
 		(uuid "243ade90-9d7d-47af-9970-ff21f577ab57")
 	)
 	(no_connect
-		(at 243.84 50.8)
-		(uuid "280b747f-3196-4b88-be53-04c355ae6f03")
-	)
-	(no_connect
 		(at 213.36 45.72)
 		(uuid "2d30f638-0e76-495d-a0c9-59e2905f78b2")
-	)
-	(no_connect
-		(at 243.84 53.34)
-		(uuid "3866048f-112f-41ae-86e4-01acf9dee70a")
 	)
 	(no_connect
 		(at 243.84 71.12)
@@ -9392,10 +9384,6 @@
 	(no_connect
 		(at 259.08 139.7)
 		(uuid "61ea2218-d6ab-40b8-af88-9f707358628b")
-	)
-	(no_connect
-		(at 243.84 55.88)
-		(uuid "627a37dd-9409-4d52-a182-5fac893769b8")
 	)
 	(no_connect
 		(at 213.36 71.12)
@@ -9424,10 +9412,6 @@
 	(no_connect
 		(at 49.53 41.91)
 		(uuid "906f49d4-3c31-44f0-bb47-e3379e0397f3")
-	)
-	(no_connect
-		(at 243.84 48.26)
-		(uuid "9124c8bc-f528-4ed8-873f-deda4a57e6c3")
 	)
 	(no_connect
 		(at 213.36 50.8)
@@ -9638,6 +9622,16 @@
 			(type default)
 		)
 		(uuid "11fe370a-2032-4c8b-9bdd-9c08de259873")
+	)
+	(wire
+		(pts
+			(xy 243.84 48.26) (xy 251.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131d7619-66d6-4924-bbd2-f63bb2718732")
 	)
 	(wire
 		(pts
@@ -9881,6 +9875,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 48.26) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9ce77b-457e-47d3-a246-b6ffa8f21ccf")
+	)
+	(wire
+		(pts
 			(xy 193.04 116.84) (xy 193.04 124.46)
 		)
 		(stroke
@@ -9988,6 +9992,16 @@
 			(type default)
 		)
 		(uuid "39b6b17c-40f8-46bb-9f12-4a45d5079840")
+	)
+	(wire
+		(pts
+			(xy 243.84 55.88) (xy 266.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ec8e18-d0ec-4140-bfe6-c9d8a8262459")
 	)
 	(wire
 		(pts
@@ -10661,6 +10675,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966340d6-21c3-49e9-8211-717662135503")
+	)
+	(wire
+		(pts
 			(xy 172.72 88.9) (xy 176.53 88.9)
 		)
 		(stroke
@@ -10718,6 +10742,16 @@
 			(type default)
 		)
 		(uuid "9b3e2317-dcb1-4d31-97f3-f77559748395")
+	)
+	(wire
+		(pts
+			(xy 243.84 53.34) (xy 251.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b775d44-e7cc-4f22-9606-ddc4adfac8c8")
 	)
 	(wire
 		(pts
@@ -11108,6 +11142,16 @@
 			(type default)
 		)
 		(uuid "c597c5cf-c2d9-469e-b246-0a0379e72a9d")
+	)
+	(wire
+		(pts
+			(xy 266.7 53.34) (xy 266.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f733b9-a91e-4aa3-8553-2963e3c2a9cf")
 	)
 	(wire
 		(pts
@@ -13506,6 +13550,199 @@
 			(project "misfits"
 				(path "/23a5639a-52a5-4ebc-85ce-b3a55850a6cf"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVP-AEDB2A:EVP-AEDB2A")
+		(at 259.08 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2811fb1b-d0ca-43b5-828b-d3e5b17609d4")
+		(property "Reference" "S4"
+			(at 257.048 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SETTING2"
+			(at 255.016 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EVP-AEDB2A:SW_EVP-AEDB2A"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVPAEDB2A/Panasonic/view-part/?ref=eda"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVPAEDB2A/Panasonic/view-part/?ref=snap"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVPAEDB2A"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch Tactile N.O. SPST Rectangular Button J-Bend 0.02A 15VDC 200000Cycles 3N SMD T/R"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
+			(uuid "5832fab5-ca60-4f4d-9a51-4a41f22680a9")
+		)
+		(pin "1"
+			(uuid "bf978599-6540-466e-bbc5-243d27086ccb")
+		)
+		(pin "2"
+			(uuid "ddfa86f6-1d83-459e-b92c-ad172594ed61")
+		)
+		(instances
+			(project "misfits"
+				(path "/23a5639a-52a5-4ebc-85ce-b3a55850a6cf"
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -15947,6 +16184,199 @@
 			(project "misfits"
 				(path "/23a5639a-52a5-4ebc-85ce-b3a55850a6cf"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EVP-AEDB2A:EVP-AEDB2A")
+		(at 259.08 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67a523d7-0166-4ade-a5c3-85342eb5fbb2")
+		(property "Reference" "S3"
+			(at 257.048 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SETTING1"
+			(at 255.016 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EVP-AEDB2A:SW_EVP-AEDB2A"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EVPAEDB2A/Panasonic/view-part/?ref=eda"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVPAEDB2A/Panasonic/view-part/?ref=snap"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EVPAEDB2A"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Switch Tactile N.O. SPST Rectangular Button J-Bend 0.02A 15VDC 200000Cycles 3N SMD T/R"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_1"
+			(uuid "61086d9c-7cc8-435f-8495-6aee6744c599")
+		)
+		(pin "1"
+			(uuid "b3d4f880-2a3d-4d32-887f-a7c04f8c9ba1")
+		)
+		(pin "2"
+			(uuid "91cf7536-c3c1-4361-b50d-6d5878a87965")
+		)
+		(instances
+			(project "misfits"
+				(path "/23a5639a-52a5-4ebc-85ce-b3a55850a6cf"
+					(reference "S3")
 					(unit 1)
 				)
 			)
